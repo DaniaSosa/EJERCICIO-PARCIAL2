@@ -42,8 +42,8 @@ match opcion:
         age.appen(int(input("Ingresa tunueva edad: ")))
         birthday.append(input("Ingresa tu nueva fecha de nacimiento (dd/mm/aaaa): "))
         password.append(input("Ingresa tu nueva contraseña: "))
-        case 5:
+    case 5:
          print("!Hasta luego!")
-         break
-        case _:
+        break
+    case _:
          print("opción no válida")
